@@ -1,8 +1,8 @@
 function parent() {
-    var name = this.age;
+    var currentAge = this.age;
 
     function child() {
-        console.log("The current age is: "+ name);
+        console.log("The current age is: "+ currentAge);
     }
     return child;
 }

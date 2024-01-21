@@ -3,12 +3,12 @@ function counter() {
 
     function increase() {
         count++;
-        console.log("counter number is: " + count);
+        console.log("counter.js number is: " + count);
     }
 
     function decrease() {
         count--;
-        console.log("counter number is: " + count);
+        console.log("counter.js number is: " + count);
     }
 
     return {
